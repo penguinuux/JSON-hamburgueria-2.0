@@ -4,8 +4,330 @@
       "email": "kenzinho@mail.com",
       "password": "$2a$10$YQiiz0ANVwIgpOjYXPxc0O9H2XeX3m8OoY1xk7OGgxTnOJnsZU7FO",
       "name": "Kenzinho",
-      "age": 38,
       "id": 1
+    },
+    {
+      "email": "pablo@mail.com",
+      "password": "$2a$10$xKnyzf7iM2oELoSJtPsfWuAzhCMFKm2KtD9KDHFhpT0H4bwhU42WS",
+      "name": "Pablo",
+      "id": 2
+    },
+    {
+      "email": "gabriel@mail.com",
+      "password": "$2a$10$f1JfSnVuhnhDbZxgQrEBT.lJrVWJ5aWmrbKnDG.RLWS65s/niyVpq",
+      "name": "Gabriel",
+      "id": 3
+    },
+    {
+      "email": "borba@mail.com",
+      "password": "$2a$10$Yiz4FjZtxWJd2S1/gQu3Auj57gr0yqvmmxwLNa9UGXkO2ldSMcxp.",
+      "name": "Borba",
+      "id": 4
+    },
+    {
+      "email": "jana@mail.com",
+      "password": "$2a$10$mlTqxmY1wZe.PL10x90C6OEgwuP4CHTCchsIF4RTSscXMcheJM6MK",
+      "name": "Janaina",
+      "id": 5
+    },
+    {
+      "email": "rennan@mail.com",
+      "password": "$2a$10$zrrYXLRljYtbQa/IjRCjwO81zDSBfG45v0G0yfSNqgH2aAQtlvyRS",
+      "name": "Rennan",
+      "id": 6
+    }
+  ],
+  "catalog": [
+    {
+      "name": "Cheddar Burguer",
+      "category": "Sanduíches",
+      "price": 13.99,
+      "img": "https://i.ibb.co/fpVHnZL/hamburguer.png",
+      "userId": 2,
+      "id": 1
+    },
+    {
+      "name": "X-Burguer",
+      "category": "Sanduíches",
+      "price": 15.99,
+      "img": "https://i.ibb.co/djbw6LV/x-burgue.png",
+      "userId": 2,
+      "id": 2
+    },
+    {
+      "name": "Big Kenzie",
+      "category": "Sanduíches",
+      "price": 14.99,
+      "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+      "userId": 2,
+      "id": 3
+    },
+    {
+      "name": "Fanta Guaraná",
+      "category": "Bebidas",
+      "price": 4.99,
+      "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png",
+      "userId": 2,
+      "id": 4
+    },
+    {
+      "name": "Coca-cola",
+      "category": "Bebidas",
+      "price": 4.99,
+      "img": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+      "userId": 2,
+      "id": 5
+    },
+    {
+      "name": "Shake OvoMaltine",
+      "category": "Bebidas",
+      "price": 5.99,
+      "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png",
+      "userId": 2,
+      "id": 6
+    },
+    {
+      "name": "Triple Burguer",
+      "category": "Sanduíches",
+      "price": 17.99,
+      "img": "https://i.ibb.co/hHpCmGt/77381-king-whopper-hamburger-big-veggie-burger-thumb.png",
+      "userId": 2,
+      "id": 7
+    },
+    {
+      "name": "Burguer Combo",
+      "category": "Sanduíches",
+      "price": 18.99,
+      "img": "https://i.ibb.co/KzxjZWk/74861-king-hamburger-food-ribs-fries-fast-burger-thumb.png",
+      "userId": 2,
+      "id": 8
+    },
+    {
+      "name": "Classic Burguer",
+      "category": "Sanduíches",
+      "price": 7.99,
+      "img": "https://i.ibb.co/Sd91CJp/70545-king-hamburger-food-mcdonald-s-cheeseburger-fast-burger-thumb.png",
+      "userId": 2,
+      "id": 9
+    },
+    {
+      "name": "Wrap",
+      "category": "Sanduíches",
+      "price": 8.99,
+      "img": "https://i.ibb.co/N9XYnFC/77553-king-whopper-sandwich-hamburger-burger-wrap-barbecue-thumb.png",
+      "userId": 2,
+      "id": 10
+    },
+    {
+      "name": "Batata Frita",
+      "category": "Fritas",
+      "price": 5.99,
+      "img": "https://i.ibb.co/wQ0xmnW/batata-frita.png",
+      "userId": 2,
+      "id": 11
+    }
+  ],
+  "orders": [
+    {
+      "userId": 2,
+      "items": [
+        {
+          "name": "X-Burguer",
+          "category": "Sanduíches",
+          "price": 15.99,
+          "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+          "userId": 2,
+          "id": 3
+        },
+        {
+          "name": "Shake OvoMaltine",
+          "category": "Bebidas",
+          "price": 5.99,
+          "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png",
+          "userId": 2,
+          "id": 7
+        }
+      ],
+      "total": 21.98,
+      "date": "2022-01-20T14:09:21.452Z",
+      "id": 1
+    },
+    {
+      "userId": 3,
+      "items": [
+        {
+          "name": "Burguer Combo",
+          "category": "Sanduiches",
+          "price": 18.99,
+          "img": "https://i.ibb.co/KzxjZWk/74861-king-hamburger-food-ribs-fries-fast-burger-thumb.png",
+          "userId": 2,
+          "id": 9
+        },
+        {
+          "name": "Classic Burguer",
+          "category": "Sanduiches",
+          "price": 7.99,
+          "img": "https://i.ibb.co/Sd91CJp/70545-king-hamburger-food-mcdonald-s-cheeseburger-fast-burger-thumb.png",
+          "userId": 2,
+          "id": 10
+        }
+      ],
+      "total": 26.98,
+      "date": "2022-01-20T14:31:51.121Z",
+      "id": 2
+    },
+    {
+      "userId": 2,
+      "items": [
+        {
+          "name": "Wrap",
+          "category": "Sanduíches",
+          "price": 8.99,
+          "img": "https://i.ibb.co/N9XYnFC/77553-king-whopper-sandwich-hamburger-burger-wrap-barbecue-thumb.png",
+          "userId": 2,
+          "id": 10
+        },
+        {
+          "name": "Batata Frita",
+          "category": "Fritas",
+          "price": 5.99,
+          "img": "https://i.ibb.co/wQ0xmnW/batata-frita.png",
+          "userId": 2,
+          "id": 11
+        }
+      ],
+      "total": 14.98,
+      "date": "2022-01-22T19:26:43.451Z",
+      "id": 3
+    },
+    {
+      "userId": 6,
+      "items": [
+        {
+          "name": "Wrap",
+          "category": "Sanduíches",
+          "price": 8.99,
+          "img": "https://i.ibb.co/N9XYnFC/77553-king-whopper-sandwich-hamburger-burger-wrap-barbecue-thumb.png",
+          "userId": 2,
+          "id": 10
+        },
+        {
+          "name": "Batata Frita",
+          "category": "Fritas",
+          "price": 5.99,
+          "img": "https://i.ibb.co/wQ0xmnW/batata-frita.png",
+          "userId": 2,
+          "id": 11
+        }
+      ],
+      "total": 14.98,
+      "date": "2022-01-22T19:26:43.451Z",
+      "id": 4
+    },
+    {
+      "userId": 6,
+      "items": [
+        {
+          "name": "Burguer Combo",
+          "category": "Sanduíches",
+          "price": 18.99,
+          "img": "https://i.ibb.co/KzxjZWk/74861-king-hamburger-food-ribs-fries-fast-burger-thumb.png",
+          "userId": 2,
+          "id": 8,
+          "quantity": 1
+        },
+        {
+          "name": "Triple Burguer",
+          "category": "Sanduíches",
+          "price": 17.99,
+          "img": "https://i.ibb.co/hHpCmGt/77381-king-whopper-hamburger-big-veggie-burger-thumb.png",
+          "userId": 2,
+          "id": 7,
+          "quantity": 1
+        },
+        {
+          "name": "Shake OvoMaltine",
+          "category": "Bebidas",
+          "price": 5.99,
+          "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png",
+          "userId": 2,
+          "id": 6,
+          "quantity": 1
+        }
+      ],
+      "total": 42.97,
+      "date": "2022-01-22T20:40:02.670Z",
+      "id": 5
+    },
+    {
+      "userId": 6,
+      "items": [
+        {
+          "name": "X-Burguer",
+          "category": "Sanduíches",
+          "price": 15.99,
+          "img": "https://i.ibb.co/djbw6LV/x-burgue.png",
+          "userId": 2,
+          "id": 2,
+          "quantity": 1
+        },
+        {
+          "name": "Cheddar Burguer",
+          "category": "Sanduíches",
+          "price": 13.99,
+          "img": "https://i.ibb.co/fpVHnZL/hamburguer.png",
+          "userId": 2,
+          "id": 1,
+          "quantity": 1
+        },
+        {
+          "name": "Fanta Guaraná",
+          "category": "Bebidas",
+          "price": 4.99,
+          "img": "https://i.ibb.co/cCjqmPM/fanta-guarana.png",
+          "userId": 2,
+          "id": 4,
+          "quantity": 1
+        },
+        {
+          "name": "Big Kenzie",
+          "category": "Sanduíches",
+          "price": 14.99,
+          "img": "https://i.ibb.co/FYBKCwn/big-kenzie.png",
+          "userId": 2,
+          "id": 3,
+          "quantity": 1
+        }
+      ],
+      "total": 49.96,
+      "date": "2022-01-22T20:41:50.112Z",
+      "id": 6
+    },
+    {
+      "userId": 6,
+      "items": [
+        {
+          "name": "Shake OvoMaltine",
+          "category": "Bebidas",
+          "price": 5.99,
+          "img": "https://i.ibb.co/QNb3DJJ/milkshake-ovomaltine.png",
+          "userId": 2,
+          "id": 6,
+          "quantity": 1
+        },
+        {
+          "name": "Coca-cola",
+          "category": "Bebidas",
+          "price": 4.99,
+          "img": "https://i.ibb.co/fxCGP7k/coca-cola.png",
+          "userId": 2,
+          "id": 5,
+          "quantity": 1
+        }
+      ],
+      "total": 10.98,
+      "date": "2022-01-22T20:42:18.594Z",
+      "id": 7
     }
   ]
 }
